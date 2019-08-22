@@ -4,11 +4,9 @@ import * as serviceWorker from './serviceWorker';
 
 import { ThemeProvider } from 'theme-ui';
 import Button from './Button'
+import baseTheme from '@ynab-design-system/base-theme/src/baseTheme';
 import buttonTheme from './Button/theme';
-let baseTheme
 
-// combine button theme with main color theme
-// const theme = { ...toTheme(moragaTheme), ...buttonTheme };
 const theme = { ...baseTheme, ...buttonTheme };
 
 ReactDOM.render(

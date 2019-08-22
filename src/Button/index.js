@@ -12,7 +12,7 @@ const Button = ({
       px: `2`,
       py: `1`,
       fontSize: 0, // picks up value from `theme.fontSizes[4]`
-      variant: `buttons.${variant}`,
+      variant: `${variant}`,
       fontFamily: 'body',
       borderStyle: 'solid',
       borderWidth: '2px',
